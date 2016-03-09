@@ -6,13 +6,13 @@
 
 **Good question**. I had a digital photo frame left over, which I wanted to use as a clock. Since the digital photo frame was quite old and did not have a function to show the time I was looking for a set of images for every minute of the day, which I would simply display in a **one-image-per-minute-slideshow**.
 
-### Photoshop template
+### Photoshop template and script
 
-For that I created the Photoshop template located [here](photoshop/digitalclock.psd). In contains layers for every number from 0 to 9 on every digit of the digital clock.
+For that I created a Photoshop template, which contains layers for every number from 0 to 9 on every digit of the digital clock, looking like the following for 23:59.
 
 ![Screenshot](https://dl.dropboxusercontent.com/u/6529185/2359.jpg)
 
-With my associated [script](script/savetime.jsx) Photoshop automatically generates 1440 .jpg, one for every minute of the day with a suitable filename.
+With my associated script Photoshop automatically generates 1440 .jpg, one for every minute of the day with a suitable filename.
 	
 	0000.jpg 
 	0001.jpg
